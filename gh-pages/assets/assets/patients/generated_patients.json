@@ -1,0 +1,324 @@
+[
+  {
+    "image": "assets/images/patient1.png",
+    "speech": "\"……\"",
+    "injury": "의식장애",
+    "gender": "남",
+    "ageRange": [
+      20,
+      30
+    ],
+    "breathingRange": [
+      0,
+      0
+    ],
+    "refillTimeRange": [
+      10.0,
+      10.0
+    ],
+    "hasPulse": false,
+    "mentalStatus": "U",
+    "followsCommand": false,
+    "needAirway": true,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient2.png",
+    "speech": "\"으으...\"",
+    "injury": "안면부 열상",
+    "gender": "남",
+    "ageRange": [
+      20,
+      35
+    ],
+    "breathingRange": [
+      8,
+      32
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.5
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient3.png",
+    "speech": "\"배 좀 봐주세요...\"",
+    "injury": "복부 열상",
+    "gender": "남",
+    "ageRange": [
+      20,
+      40
+    ],
+    "breathingRange": [
+      8,
+      35
+    ],
+    "refillTimeRange": [
+      1.9,
+      3.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient4.png",
+    "speech": "\"……\"",
+    "injury": "복부 관통상",
+    "gender": "남",
+    "ageRange": [
+      65,
+      80
+    ],
+    "breathingRange": [
+      0,
+      0
+    ],
+    "refillTimeRange": [
+      10.0,
+      10.0
+    ],
+    "hasPulse": false,
+    "mentalStatus": "U",
+    "followsCommand": false,
+    "needAirway": true,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient5.png",
+    "speech": "\"으으...\"",
+    "injury": "경부열상",
+    "gender": "남",
+    "ageRange": [
+      25,
+      40
+    ],
+    "breathingRange": [
+      8,
+      35
+    ],
+    "refillTimeRange": [
+      1.9,
+      3.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "V",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient6.png",
+    "speech": "\"움직일 수가 없어요...\"",
+    "injury": "무릎 열상",
+    "gender": "남",
+    "ageRange": [
+      35,
+      45
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient7.png",
+    "speech": "\"으으...\"",
+    "injury": "이마 타박상",
+    "gender": "남",
+    "ageRange": [
+      30,
+      45
+    ],
+    "breathingRange": [
+      8,
+      30
+    ],
+    "refillTimeRange": [
+      2.0,
+      3.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "V",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient8.png",
+    "speech": "\"……\"",
+    "injury": "이마 타박상",
+    "gender": "남",
+    "ageRange": [
+      30,
+      45
+    ],
+    "breathingRange": [
+      6,
+      9
+    ],
+    "refillTimeRange": [
+      2.5,
+      3.0
+    ],
+    "hasPulse": false,
+    "mentalStatus": "P",
+    "followsCommand": false,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient9.png",
+    "speech": "\"아아.. 도..도와주세요\"",
+    "injury": "전신 찰과상",
+    "gender": "여",
+    "ageRange": [
+      25,
+      35
+    ],
+    "breathingRange": [
+      6,
+      35
+    ],
+    "refillTimeRange": [
+      1.5,
+      3.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "V",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient10.png",
+    "speech": "\"……\"",
+    "injury": "가슴 타박상",
+    "gender": "남",
+    "ageRange": [
+      25,
+      45
+    ],
+    "breathingRange": [
+      6,
+      35
+    ],
+    "refillTimeRange": [
+      2.5,
+      3.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "P",
+    "followsCommand": false,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient11.png",
+    "speech": "\"움직일 수가 없어요...\"",
+    "injury": "무릎 열상",
+    "gender": "남",
+    "ageRange": [
+      30,
+      45
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.5
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient12.png",
+    "speech": "\"……\"",
+    "injury": "무릎 열상",
+    "gender": "남",
+    "ageRange": [
+      30,
+      45
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.5
+    ],
+    "hasPulse": true,
+    "mentalStatus": "V",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient13.png",
+    "speech": "\"……\"",
+    "injury": "가슴 관통상",
+    "gender": "남",
+    "ageRange": [
+      50,
+      65
+    ],
+    "breathingRange": [
+      6,
+      35
+    ],
+    "refillTimeRange": [
+      2.5,
+      3.0
+    ],
+    "hasPulse": false,
+    "mentalStatus": "V",
+    "followsCommand": false,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient14.png",
+    "speech": "\"……\"",
+    "injury": "가슴 관통상",
+    "gender": "남",
+    "ageRange": [
+      50,
+      65
+    ],
+    "breathingRange": [
+      0,
+      0
+    ],
+    "refillTimeRange": [
+      10.0,
+      10.0
+    ],
+    "hasPulse": false,
+    "mentalStatus": "U",
+    "followsCommand": false,
+    "needAirway": true,
+    "walking": false
+  }
+]

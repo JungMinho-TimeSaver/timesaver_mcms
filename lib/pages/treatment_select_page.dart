@@ -1,3 +1,4 @@
+// lib/pages/treatment_select_page.dart
 import 'package:flutter/material.dart';
 import 'treatment_mode_page.dart';
 import '../pages/record_page.dart';
@@ -5,13 +6,15 @@ import '../pages/record_page.dart';
 class TreatmentSelectPage extends StatelessWidget {
   final List<Map<String, dynamic>> classifiedPatients;
   final List<Map<String, dynamic>> sessionRecords;
-  final Future<void> Function() onSessionSaved;
+
+  // ✅ nullable 로 변경
+  final Future<void> Function()? onSessionSaved;
 
   const TreatmentSelectPage({
     super.key,
     required this.classifiedPatients,
     required this.sessionRecords,
-    required this.onSessionSaved,
+    this.onSessionSaved, // ✅ required 제거
   });
 
   @override
@@ -30,7 +33,8 @@ class TreatmentSelectPage extends StatelessWidget {
                     builder: (_) => TreatmentModePage(
                       patients: classifiedPatients,
                       sessionRecords: sessionRecords,
-                      onSessionSaved: onSessionSaved,
+                      // ✅ 넘길 때도 nullable
+                      onSessionSaved: onSessionSaved ?? (() async {}),
                     ),
                   ),
                 );
@@ -40,10 +44,13 @@ class TreatmentSelectPage extends StatelessWidget {
             const SizedBox(height: 16),
             ElevatedButton(
               onPressed: () async {
-                await onSessionSaved(); // 세션 저장
+                // ✅ 호출 가드
+                if (onSessionSaved != null) {
+                  await onSessionSaved!();
+                }
                 Navigator.pushAndRemoveUntil(
                   context,
-                  MaterialPageRoute(builder: (_) => RecordPage()),
+                  MaterialPageRoute(builder: (_) => const RecordPage()),
                   (route) => false,
                 );
               },

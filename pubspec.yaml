@@ -1,6 +1,5 @@
 name: timesaver_mcms
 description: "A new Flutter project."
-
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -12,8 +11,17 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  shared_preferences: ^2.2.2  # ✅ 추가
+  shared_preferences: ^2.2.2
   intl: ^0.19.0
+
+  # ✅ Firebase (안정 호환 세트 유지)
+  firebase_core: ^2.31.1
+  firebase_auth: ^4.19.6
+  cloud_firestore: ^4.17.5
+
+  # ✅ 관리자 페이지용
+  csv: ^6.0.0
+  file_saver: ^0.2.13
 
 dev_dependencies:
   flutter_test:
@@ -22,7 +30,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
   assets:
     - assets/images/
     - assets/patients/generated_patients.json
