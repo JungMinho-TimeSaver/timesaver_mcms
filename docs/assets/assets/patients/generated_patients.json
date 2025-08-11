@@ -619,5 +619,350 @@
     "followsCommand": true,
     "needAirway": false,
     "walking": false
+  },
+  {
+    "image": "assets/images/patient27.png",
+    "speech": "\"아이고 내 죽는다\"",
+    "injury": "무릎 찰과상",
+    "gender": "여",
+    "ageRange": [
+      55,
+      65
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient28.png",
+    "speech": "\"도와주세요\"",
+    "injury": "찰과상",
+    "gender": "남",
+    "ageRange": [
+      25,
+      35
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient29.png",
+    "speech": "\"……\"",
+    "injury": "의식장애",
+    "gender": "남",
+    "ageRange": [
+      25,
+      35
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "P",
+    "followsCommand": false,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient30.png",
+    "speech": "\"못걸어요\"",
+    "injury": "발목 부종",
+    "gender": "남",
+    "ageRange": [
+      55,
+      65
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient31.png",
+    "speech": "\"아악\"",
+    "injury": "안면, 가슴 타박상",
+    "gender": "남",
+    "ageRange": [
+      25,
+      40
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient32.png",
+    "speech": "\"아악\"",
+    "injury": "안면, 가슴 타박상",
+    "gender": "남",
+    "ageRange": [
+      25,
+      40
+    ],
+    "breathingRange": [
+      31,
+      35
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient33.png",
+    "speech": "\"도와주세요\"",
+    "injury": "이마, 무릎 열상",
+    "gender": "여",
+    "ageRange": [
+      35,
+      40
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient34.png",
+    "speech": "\"아아....\"",
+    "injury": "이마, 무릎 열상",
+    "gender": "여",
+    "ageRange": [
+      35,
+      40
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      2.1,
+      2.5
+    ],
+    "hasPulse": true,
+    "mentalStatus": "V",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient35.png",
+    "speech": "\"배가 아파요\"",
+    "injury": "복부 타박상",
+    "gender": "남",
+    "ageRange": [
+      45,
+      65
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient36.png",
+    "speech": "\"아아....\"",
+    "injury": "복부 타박상",
+    "gender": "남",
+    "ageRange": [
+      45,
+      65
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      2.1,
+      2.5
+    ],
+    "hasPulse": false,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient37.png",
+    "speech": "\"……\"",
+    "injury": "복부 열상",
+    "gender": "남",
+    "ageRange": [
+      30,
+      40
+    ],
+    "breathingRange": [
+      8,
+      33
+    ],
+    "refillTimeRange": [
+      1.5,
+      2.5
+    ],
+    "hasPulse": true,
+    "mentalStatus": "P",
+    "followsCommand": false,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient38.png",
+    "speech": "\"……\"",
+    "injury": "복부 열상",
+    "gender": "남",
+    "ageRange": [
+      30,
+      40
+    ],
+    "breathingRange": [
+      4,
+      9
+    ],
+    "refillTimeRange": [
+      2.1,
+      2.5
+    ],
+    "hasPulse": false,
+    "mentalStatus": "U",
+    "followsCommand": false,
+    "needAirway": true,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient39.png",
+    "speech": "\"아파요\"",
+    "injury": "무릎 열상",
+    "gender": "남",
+    "ageRange": [
+      45,
+      60
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient39.png",
+    "speech": "\"아파요\"",
+    "injury": "무릎 열상",
+    "gender": "남",
+    "ageRange": [
+      30,
+      45
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.0
+    ],
+    "hasPulse": true,
+    "mentalStatus": "A",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
+  },
+  {
+    "image": "assets/images/patient40.png",
+    "speech": "\"아아....\"",
+    "injury": "무릎 열상",
+    "gender": "남",
+    "ageRange": [
+      30,
+      45
+    ],
+    "breathingRange": [
+      10,
+      30
+    ],
+    "refillTimeRange": [
+      1.0,
+      2.5
+    ],
+    "hasPulse": true,
+    "mentalStatus": "V",
+    "followsCommand": true,
+    "needAirway": false,
+    "walking": false
   }
 ]
