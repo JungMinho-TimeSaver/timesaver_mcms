@@ -110,7 +110,7 @@
     ],
     "hasPulse": true,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   },
@@ -156,7 +156,7 @@
     ],
     "hasPulse": true,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   },
@@ -202,7 +202,7 @@
     ],
     "hasPulse": true,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   },
@@ -271,7 +271,7 @@
     ],
     "hasPulse": true,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   },
@@ -363,7 +363,7 @@
     ],
     "hasPulse": true,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   },
@@ -386,7 +386,7 @@
     ],
     "hasPulse": true,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   },
@@ -432,7 +432,7 @@
     ],
     "hasPulse": false,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   },
@@ -800,7 +800,7 @@
     ],
     "hasPulse": true,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   },
@@ -961,7 +961,7 @@
     ],
     "hasPulse": true,
     "mentalStatus": "V",
-    "followsCommand": true,
+    "followsCommand": false,
     "needAirway": false,
     "walking": false
   }
