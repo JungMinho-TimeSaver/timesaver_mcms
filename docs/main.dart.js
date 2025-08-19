@@ -87137,7 +87137,7 @@ s=A.aBb(b,new A.aoS(r.a,s,r.f),J.cq(s))}else{s=r.r
 s=A.Ll(b,new A.aoT(s),J.cq(s),q,new A.aoU())}return new A.br(B.fI,A.dd(A.b([p,B.dH,A.fi(s,1)],t.p),B.ae,B.z,B.N),q)},
 $S:201}
 A.aoS.prototype={
-$2(b5,b6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c="refillTime",b="hasPulse",a="mentalStatus",a0="followsCommand",a1="\uae30\ub3c4\uacb0\uacfc",a2="image",a3="-",a4="\ud68c/\ubd84 (\uc815\uc0c1 10~30\ud68c/\ubd84)",a5=t.f.a(J.c2(this.b,b6)).my(0,new A.aoR(),t.N,t.z),a6=b6+1,a7=this.c.h(0,a6),a8=a7==null,a9=A.asz(a8?d:a7.h(0,"time")),b0=J.d(a8?d:a7.h(0,"correct"),1),b1=A.a0(a8?d:a7.h(0,"myAnswer")),b2=A.a0(a8?d:a7.h(0,"correctAnswer")),b3=t.s,b4=A.b([],b3)
+$2(b5,b6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c="refillTime",b="hasPulse",a="mentalStatus",a0="followsCommand",a1="\uae30\ub3c4\uacb0\uacfc",a2="image",a3="-",a4="\ud68c/\ubd84 (\uc815\uc0c1 10~29\ud68c/\ubd84)",a5=t.f.a(J.c2(this.b,b6)).my(0,new A.aoR(),t.N,t.z),a6=b6+1,a7=this.c.h(0,a6),a8=a7==null,a9=A.asz(a8?d:a7.h(0,"time")),b0=J.d(a8?d:a7.h(0,"correct"),1),b1=A.a0(a8?d:a7.h(0,"myAnswer")),b2=A.a0(a8?d:a7.h(0,"correctAnswer")),b3=t.s,b4=A.b([],b3)
 if(b0)b4.push("\uc815\ub2f5")
 else b4.push("\uc624\ub2f5")
 a8=a9!=null
@@ -87157,13 +87157,13 @@ r=a5.h(0,a)
 k=J.c_(r==null?"":r)
 j=J.d(a5.h(0,a0),!0)
 i=A.b([],b3)
-if(n===0)if(J.d(a5.h(0,a1),"\ud638\ud761 \ud655\uc778\ub428"))i.push("\ubb34\ud638\ud761 \u2192 \uae30\ub3c4\uac1c\ubc29 \ud6c4 \ud638\ud761 \ud655\uc778\ub428 (\uc815\uc0c1 10~30\ud68c/\ubd84)")
-else i.push("\ubb34\ud638\ud761 (\uc815\uc0c1 10~30\ud68c/\ubd84)")
+if(n===0)if(J.d(a5.h(0,a1),"\ud638\ud761 \ud655\uc778\ub428"))i.push("\ubb34\ud638\ud761 \u2192 \uae30\ub3c4\uac1c\ubc29 \ud6c4 \ud638\ud761 \ud655\uc778\ub428 (\uc815\uc0c1 10~29\ud68c/\ubd84)")
+else i.push("\ubb34\ud638\ud761 (\uc815\uc0c1 10~29\ud68c/\ubd84)")
 else{if(n<10)i.push("\ud638\ud761\uc218 "+n+a4)
-if(n>30)i.push("\ud638\ud761\uc218 "+n+a4)}if(m>2)i.push("\ubaa8\uc138\ud608\uad00\ucda9\ud608 "+B.c.a7(m,1)+"\ucd08 (\uc815\uc0c1 \u22642.0\ucd08)")
+if(n>29)i.push("\ud638\ud761\uc218 "+n+a4)}if(m>1.9)i.push("\ubaa8\uc138\ud608\uad00\ucda9\ud608 "+B.c.a7(m,1)+"\ucd08 (\uc815\uc0c1 2\ucd08 \ubbf8\ub9cc)")
 if(!l)i.push("\ub9d0\ucd08\ub9e5\ubc15 \ucd09\uc9c0 \uc548\ub428 (\uc815\uc0c1 \ub9d0\ucd08\ub9e5\ubc15 \ucd09\uc9c0)")
 if(k==="U")i.push("\uc758\uc2dd U")
-if(!j)i.push("\uc9c0\uc2dc\uc218\ud589 \ubd88\uac00 (\uc815\uc0c1 \uc9c0\uc2dc\uc218\ud589 \uac00\ub2a5, U \uc544\ub2d8)")
+if(!j)i.push("\uc9c0\uc2dc\uc218\ud589 \ubd88\uac00 (\uc815\uc0c1 \uc9c0\uc2dc\uc218\ud589 \uac00\ub2a5, \uc758\uc2dd\uba85\ub8cc)")
 h=i.length===0?"\ubaa8\ub4e0 \ud56d\ubaa9 \uc815\uc0c1 \ubc94\uc704 \ub0b4":B.b.aJ(i,"\n")
 b3=t.p
 r=A.b([],b3)
@@ -87368,10 +87368,10 @@ if(j===0){r=J.j1(n)
 if(r.j(n,"\ud638\ud761 \ud655\uc778\ub428"))m.push("\ubb34\ud638\ud761 \u2192 \uae30\ub3c4\uac1c\ubc29 \ud6c4 \ud638\ud761 \ud655\uc778\ub428")
 else if(r.j(n,"\ud638\ud761 \uc5c6\uc74c"))m.push("\ubb34\ud638\ud761(\uae30\ub3c4\uac1c\ubc29 \ud6c4\uc5d0\ub3c4 \ud638\ud761 \uc5c6\uc74c)")
 else m.push("\ubb34\ud638\ud761(\uae30\ub3c4 \ud655\uc778 \ud544\uc694)")}else if(j<10)m.push("\ud638\ud761\uc218 "+j+"/\ubd84 (<10)")
-else if(j>30)m.push("\ud638\ud761\uc218 "+j+"/\ubd84 (>30)")
-else l.push("\ud638\ud761\uc218 \uc815\uc0c1(10~30/\ubd84)")
-if(s>2)m.push("\ubaa8\uc138\ud608\uad00\ucda9\ud608 "+B.c.a7(s,1)+"\ucd08 (>2.0\ucd08)")
-else l.push("\ubaa8\uc138\ud608\uad00\ucda9\ud608 \uc815\uc0c1(\u22642.0\ucd08)")
+else if(j>29)m.push("\ud638\ud761\uc218 "+j+"/\ubd84 (>29)")
+else l.push("\ud638\ud761\uc218 \uc815\uc0c1(10~29/\ubd84)")
+if(s>1.9)m.push("\ubaa8\uc138\ud608\uad00\ucda9\ud608 "+B.c.a7(s,1)+"\ucd08 (>1.9\ucd08)")
+else l.push("\ubaa8\uc138\ud608\uad00\ucda9\ud608 \uc815\uc0c1(\u22641.9\ucd08)")
 if(!q)m.push("\ub9d0\ucd08\ub9e5\ubc15 \ucd09\uc9c0 \uc548\ub428")
 else l.push("\ub9d0\ucd08\ub9e5\ubc15 \ucd09\uc9c0\ub428")
 if(p==="V"||p==="P"||p==="U")m.push("\uc758\uc2dd \uc0c1\ud0dc AVPU="+p+" \u2192 START \uae30\uc900\uc0c1 RED")
@@ -87401,7 +87401,7 @@ p.m(0,k,B.c.a7(r.Vz()*J.Yx(J.c2(p.h(0,j),1),J.c2(p.h(0,j),0))+J.c2(p.h(0,j),0),1
 p.m(0,"canWalk",!1)
 h.a=null
 if(J.d(p.h(0,n),0)&&p.h(0,"needAirway"))h.a="\ubbf8\uc815"
-else if(J.aJt(p.h(0,n),30)||J.aJu(p.h(0,n),10)||A.axJ(p.h(0,k))>2||J.d(p.h(0,"hasPulse"),!1))h.a="\uae34\uae09"
+else if(J.aJt(p.h(0,n),29)||J.aJu(p.h(0,n),10)||A.axJ(p.h(0,k))>1.9||J.d(p.h(0,"hasPulse"),!1))h.a="\uae34\uae09"
 else if(J.d(p.h(0,i),"V")||J.d(p.h(0,i),"P")||J.d(p.h(0,i),"U"))h.a="\uae34\uae09"
 else h.a=p.h(0,"canWalk")?"\ube44\uc751\uae09":"\uc751\uae09"
 o.a4(new A.aqE(h,o,p))},
